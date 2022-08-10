@@ -11,3 +11,68 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.app-header{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  text-align: center;
+  background-color:#203b5c;
+  color: aliceblue;
+  justify-content: center;
+  align-items: center;
+
+}
+.heading-text{
+  color: white;
+  font-size: 42px;
+  font-weight: bolder;
+  text-align: center;
+  margin: 20px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.jc-center {
+  justify-content: center;
+}
+.square{
+  min-width: 90px;
+  min-height: 75px;
+  font-size: 64px;
+  text-align: center;
+  color: aqua;
+  font-weight: bolder;
+  padding: 30px;
+}
+.b-bottom-right{
+  border-right: 15px solid aqua;
+  border-bottom: 15px solid aqua;
+
+}
+.b-bottom{
+  border-bottom: 15px solid aqua;
+}
+.b-right{
+  border-right: 15px solid aqua;
+}
+.clear-button{
+  width: auto;
+  margin: 40px auto 10px auto;
+  cursor: pointer;
+  background-color: rgb(43, 171, 213);
+  border: 1px;
+  border-radius: 5px;
+  color: rgb(247, 247, 247);
+  height: auto;
+  font-size: medium;
+}
+.my-name{
+  color: aqua;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: small;
+}
